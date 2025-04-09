@@ -11,7 +11,7 @@ const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [users, setUsers] = useState([]);
-  const [showRegister, setShowRegister] = useState(false); // Track login failure
+  const [showRegister, setShowRegister] = useState(true); // Track login failure
   const navigate = useNavigate();
 
   useEffect(() => {
